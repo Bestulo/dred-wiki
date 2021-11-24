@@ -12,7 +12,7 @@ export default function Layout({ children, siteData }) {
         <style>
           {`
         /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');*/
-        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
          /* CSS normalize*/
          body, html {
           margin: 0;
