@@ -1,3 +1,4 @@
+import "tailwindcss/tailwind.css";
 import "../styles/global.css";
 import "../styles/prism-theme-night-owl.css";
 import Layout from "../components/Layout";
@@ -26,7 +27,9 @@ export default function App({ Component, pageProps }) {
   return (
     <MDXProvider components={mdComponents}>
       <Layout siteData={siteData}>
+        {/* <div className="bg-[#111]"> */}
         <Component {...pageProps} />
+        {/* </div> */}
       </Layout>
     </MDXProvider>
   );
