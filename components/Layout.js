@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function Layout({ children, siteData }) {
   return (
-    <div>
+    <div className="bg-[#242933] absolute top-0 left-0 w-full h-full min-h-screen overflow-y-auto flex flex-col">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content={siteData.author} />
@@ -11,7 +11,8 @@ export default function Layout({ children, siteData }) {
         <title>{siteData.title}</title>
         <style>
           {`
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');*/
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
          /* CSS normalize*/
          body, html {
           margin: 0;
@@ -38,7 +39,7 @@ export default function Layout({ children, siteData }) {
         }
         /* all titles and semititles have font Montserrat */
         h1, h2, h3, h4, h5, h6 {
-          font-family: 'Montserrat', sans-serif;
+          font-family: 'Crimson Pro', sans-serif;
           font-weight: 700;
           margin-bottom: 0.5rem;
         }
@@ -50,7 +51,12 @@ export default function Layout({ children, siteData }) {
         </style>
       </Head>
       <Header siteName={siteData.title} />
-      <main className="container">{children}</main>
+      <main className="bg-[#2E3440] px-8 py-2 mx-auto max-w-2xl w-full mt-3">
+        {children}
+      </main>
+      {/* <div className="h-20 self-end justify-self-end place-self-end flex items-center justify-center w-full bg-gray-700">
+        a
+      </div> */}
     </div>
   );
 }

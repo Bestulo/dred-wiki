@@ -27,9 +27,7 @@ export default function App({ Component, pageProps }) {
   return (
     <MDXProvider components={mdComponents}>
       <Layout siteData={siteData}>
-        {/* <div className="bg-[#111]"> */}
         <Component {...pageProps} />
-        {/* </div> */}
       </Layout>
     </MDXProvider>
   );

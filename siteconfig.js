@@ -1,5 +1,5 @@
 export default {
-  title: "Dred.sh Marketing Guide",
+  title: "Tailwind + Next12 FoamyNextjs",
   description: "Digital Garden built with Foam and NextJS with MDX",
   author: "Yenly Ma",
 };
