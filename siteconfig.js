@@ -1,5 +1,5 @@
 export default {
-  title: "Tailwind + Next12 FoamyNextjs",
-  description: "Digital Garden built with Foam and NextJS with MDX",
-  author: "Yenly Ma",
+  title: "Dred Wiki",
+  description: "A wiki made by Dred for personal and professional purposes",
+  author: "DredShep",
 };

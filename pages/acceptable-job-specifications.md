@@ -1,0 +1,2 @@
+# Acceptable job specifications
+

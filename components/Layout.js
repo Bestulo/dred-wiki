@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function Layout({ children, siteData }) {
   return (
-    <div className="bg-[#242933] absolute top-0 left-0 w-full h-full min-h-screen overflow-y-auto flex flex-col">
+    <div className="bg-[#242933] absolute top-0 left-0 w-full h-full min-h-screen overflow-y-auto flex flex-col font-body">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content={siteData.author} />
